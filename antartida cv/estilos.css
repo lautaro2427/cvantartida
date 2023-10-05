@@ -1,8 +1,6 @@
 header{
-    background-color: #008000;
+    background-color: #009E3F;
     display: flex;
-    border-style: solid;
-    border-radius: 20px;
     justify-content: space-between;
     align-items: center;
     padding-right: 60px;
@@ -10,12 +8,45 @@ header{
     padding-left: 50px;
 }
 
+@media(max-width: 550px){
+    
+    header{
+        display: block;
+        text-align: center;
+    }
+    a{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+.texto1{
+    color: #009E3F;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.texto3{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+
+}
+
 body{
     margin: 0%;
 }
 
+a{
+    margin: 5px;
+}
+
 nav{
     font-size: 30px;
+    margin: 10px;
 }
 
 a{
@@ -44,7 +75,7 @@ font-size: 20px;
 }
 
 footer{
-    background-color: #008000;
+    background-color: #009E3F;
     display: flex;
     align-items: center;
     justify-content: space-between;
